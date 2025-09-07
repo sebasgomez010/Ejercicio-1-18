@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F3FFE97-58B2-4131-B522-38E084673BC7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ejercicio_1_18</RootNamespace>
+    <AssemblyName>Ejercicio#1-18</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ejercicio1Class.cs" />
+    <Compile Include="forms ui\ejercicioN1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN1.Designer.cs">
+      <DependentUpon>ejercicioN1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN10.Designer.cs">
+      <DependentUpon>ejercicioN10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN11.Designer.cs">
+      <DependentUpon>ejercicioN11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN12.Designer.cs">
+      <DependentUpon>ejercicioN12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN13.Designer.cs">
+      <DependentUpon>ejercicioN13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN14.Designer.cs">
+      <DependentUpon>ejercicioN14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN15.Designer.cs">
+      <DependentUpon>ejercicioN15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN16.Designer.cs">
+      <DependentUpon>ejercicioN16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN17.Designer.cs">
+      <DependentUpon>ejercicioN17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN2.Designer.cs">
+      <DependentUpon>ejercicioN2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN3.Designer.cs">
+      <DependentUpon>ejercicioN3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN4.Designer.cs">
+      <DependentUpon>ejercicioN4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN5.Designer.cs">
+      <DependentUpon>ejercicioN5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN6.Designer.cs">
+      <DependentUpon>ejercicioN6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN7.Designer.cs">
+      <DependentUpon>ejercicioN7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN8.Designer.cs">
+      <DependentUpon>ejercicioN8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\ejercicioN9.Designer.cs">
+      <DependentUpon>ejercicioN9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms ui\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms ui\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms ui\ejercicioN1.resx">
+      <DependentUpon>ejercicioN1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN10.resx">
+      <DependentUpon>ejercicioN10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN11.resx">
+      <DependentUpon>ejercicioN11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN2.resx">
+      <DependentUpon>ejercicioN2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN7.resx">
+      <DependentUpon>ejercicioN7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN8.resx">
+      <DependentUpon>ejercicioN8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN9.resx">
+      <DependentUpon>ejercicioN9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
