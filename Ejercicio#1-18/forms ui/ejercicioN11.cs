@@ -36,5 +36,29 @@ namespace Ejercicio_1_18.Interface
             else
                 TXTSalida.Text = "No debe inscribirse en el SMO.";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TXAN.Clear();
+            TXAA.Clear();
+            TXTSalida.Clear();
+            TXAN.Focus();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            {
+                Form home = Application.OpenForms["Home"];
+                if (home == null) home = new Home();
+
+                home.Show();
+                this.Close();
+            }
+        }
+
+        private void TXAN_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

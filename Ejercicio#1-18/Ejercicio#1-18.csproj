@@ -166,6 +166,18 @@
     <EmbeddedResource Include="forms ui\ejercicioN11.resx">
       <DependentUpon>ejercicioN11.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN12.resx">
+      <DependentUpon>ejercicioN12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN13.resx">
+      <DependentUpon>ejercicioN13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN14.resx">
+      <DependentUpon>ejercicioN14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms ui\ejercicioN15.resx">
+      <DependentUpon>ejercicioN15.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms ui\ejercicioN2.resx">
       <DependentUpon>ejercicioN2.cs</DependentUpon>
     </EmbeddedResource>
